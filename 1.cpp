@@ -5,6 +5,7 @@
 using namespace std;
 string a, b;
 int flag;
+//17609 회문문제 회문문제를 처음봐서 꽤 오래 거렸지만 풀기는 풀었따.
 int Palin(int start, int end, string Dan) {
 	while (start < end) {
 		if (Dan[start] != Dan[end]) {
